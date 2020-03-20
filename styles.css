@@ -1,0 +1,105 @@
+
+* {
+
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 300vh;
+  background-color: black;
+}
+
+.header {
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+  background-image: 
+  linear-gradient(to bottom, rgba(66, 66, 75, 0.1), 
+  rgba(26, 25, 26, 0.9)), url('https://uploads.guim.co.uk/2020/03/20/cheng-feng-4pTY4ty7jXM-unsplash_30.jpg');
+}
+
+.nav-bar {
+
+  color: white;
+  
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+}
+
+
+.name {
+  font-size: 5rem;
+  display: flex;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  
+  color: #fff;
+ 
+}
+
+
+
+
+.job {
+  font-size: 3rem;
+  display: flex;
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  
+
+}
+
+h2 {
+  margin: 0;
+}
+
+.buttons {
+
+  display: flex;
+
+}
+
+.work-btn {
+  margin-top: 2rem;
+  width: 14vw;
+  height: 7vh;
+  font-size: 1.2rem;
+  background-color: rgba(255, 0, 106, 0.3);
+  color: white;
+  border: none;
+  min-height: 32px;
+  min-width: 40px;
+  outline: none;
+  
+}
+
+.work-btn:hover {
+  background-color: rgba(255, 0, 106, 0.5);
+}
+
+.work-btn:active {
+  outline: none;
+  
+}
