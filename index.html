@@ -1,37 +1,100 @@
 <!DOCTYPE html>
 
   <head>
-    <meta charset="utf-8">
+      <script defer src="js/all.js"></script> 
+      <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lawrence Wakefield – Developer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Raleway&display=swap" rel="stylesheet">
 
   </head>
   <body>
-      <div class="nav-bar">Social icons go here</div>
+      <div class="nav-bar">
+        <a href="/" class="icon">
+            <i class="fab fa-github"></i>
+        </a>
+          <a href="#"  class="icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="icon">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+          <a href="#"  class="icon">
+            <i class="fas fa-envelope-open-text"></i>
+          </a>
+  
+       
+         
+      </div>
 <div class="header">
  
 <div class="name">
-  <h1>Lawrence Wakefield</h1>
+  Lawrence Wakefield
 </div>
 
-<div class="job"><h2>Developer</h2></div>
+<div class="job">Developer</div>
 <div class="buttons">
- <button class="work-btn" onClick="document.getElementById('projects').scrollIntoView()">See my work</button>
+ <button class="work-btn" onClick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth'})">See my work </button>
 </div>
 </div>
 <div id="projects">
 
-    projects
-    </div>
     
-<div class="about-me">
+    <div class="project-container">
+        <div class="job">projects </div>
+        <div class="project-text">
+            In my example with the blue square, I enclose it with another div called “blue-square-container”. In order to center my blue square, I had to create a parent element and set the display property of my blue square to inline-block.
+        </div>
+          <div class="project-image"></div>
 
-  about go here
+         
+
+          
+
+    </div>
+    <div class="buttons">
+        <button class="work-btn centered-btn" onClick="document.getElementById('about').scrollIntoView({ behavior: 'smooth'})">About me</button>
+       </div>
+  
+  </div>
+   
+   
+  </div>
+   
+    
+<div id="about">
+  <div class="container">
+
+      <h2 class="job">About me</h2>
+
+      <p>Cybertruck is built with an exterior shell made for ultimate durability and passenger protection. Starting with a nearly impenetrable exoskeleton, every component is designed for superior strength and endurance, from Ultra-Hard 30X Cold-Rolled stainless-steel structural skin to Tesla armor glass.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sem, condimentum vitae tellus vel, maximus porttitor enim. Aliquam hendrerit sem mauris, non consequat augue interdum eget. Nam sit amet condimentum enim. Nunc interdum, risus vel auctor consequat, nisl nibh fermentum lacus, ac dictum turpis erat eu urna. Integer sit amet ex eu libero luctus venenatis. Pellentesque commodo mi velit, eget semper nibh feugiat non. Praesent rutrum nisi at luctus fringilla.</p>
+  </div>
+  <div class="buttons">
+      <button class="work-btn" onClick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth'})">Contact me</button>
+     </div>
 </div>
+
+<div class="footer" id="footer">
+
+    
+    <div>
+        <h2 class="job">Thank you for your attention</h2>
+        <div class="cyber-button-border">
+            <button class="cyber-button">Email me</button>
+            
+    </div>
+    <div class="footer-image"></div>
+
+    </div>
+
+  
+</div>
+
+ 
 
     <script src="./scripts.js" async defer></script>
   </body>
