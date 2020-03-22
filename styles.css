@@ -484,3 +484,33 @@ outline: none;
           color:rgb(53, 56, 56);
       }
   }
+
+
+  .neon {
+   
+    -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  @-webkit-keyframes pulse {
+    from {
+      text-shadow: 0 0 .6rem rgba(255, 255, 255, 0.795),
+                 0 0 1.3rem rgba(255, 255, 255, 0.795),
+                 0 0 2rem rgba(255, 255, 255, 0.795),
+                 0 0 4rem rgba(255, 0, 106, 0.9),
+                 0 0 7rem rgba(255, 0, 106, 0.8),
+                 0 0 8rem rgba(255, 0, 106, 0.7),
+                 0 0 10rem rgba(255, 0, 106, 0.6),
+                 0 0 15rem rgba(255, 0, 106, 0.5);
+    }
+    to {
+      text-shadow: 0 0 .2rem rgba(255, 255, 255, 0.795),
+                 0 0 0.5rem rgba(255, 255, 255, 0.795),
+                 0 0 1rem rgba(255, 255, 255, 0.795),
+                 0 0 2rem rgba(255, 0, 106, 0.9),
+                 0 0 3.5rem rgba(255, 0, 106, 0.8),
+                 0 0 4rem rgba(255, 0, 106, 0.7),
+                 0 0 5rem rgba(255, 0, 106, 0.6),
+                 0 0 7.5rem rgba(255, 0, 106, 0.5);
+    }
+  }
