@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron|Raleway&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="webpoints/lib/jquery.waypoints.min.js"></script>
 
   </head>
   <body>
@@ -38,7 +39,7 @@
       </div>
 <div class="header" >
  
-<div class="name hidden neon">
+<div class="name hidden neon" id="name">
   Lawrence Wakefield
 </div>
 
@@ -50,10 +51,10 @@
 </div>
 <div id="projects">
     
-    <div class="project-container">
+    <div class="project-container hide">
       
        
-        <div class="project-text">
+        <div class="project-text hide">
             
             <div class="job ">My first web app </div>
            <p>
@@ -67,12 +68,12 @@
            <button class="external">See the code</button>
            </div>
         </div>
-          <div class="project-image"></div>
+          <div class="project-image hide-img"></div>
           
 
     </div>
-    <div class="buttons">
-        <button class="work-btn centered-btn" onClick="document.getElementById('projects2').scrollIntoView({ behavior: 'smooth'})">Continue</button>
+    <div class="buttons ">
+        <button class="work-btn centered-btn hide" onClick="document.getElementById('projects2').scrollIntoView({ behavior: 'smooth'})">Continue</button>
        </div>
   
   </div>
@@ -81,12 +82,12 @@
   <div id="projects2">
     
 
-      <div class="project-container">
+      <div class="project-container hide2">
           
           
-            <div class="project-image-2"></div>
+            <div class="project-image-2 hide-img2"></div>
 
-            <div class="project-text-2">
+            <div class="project-text-2 hide2">
                 <div class="job">My second web app </div>
                 <p>
                     In my example with the blue square, I enclose it with another div called “blue-square-container”. I had to create a parent element and set the display property of my blue square to inline-block.
@@ -102,7 +103,7 @@
   
       </div>
       <div class="buttons">
-          <button class="work-btn centered-btn" onClick="document.getElementById('projects3').scrollIntoView({ behavior: 'smooth'})">Continue</button>
+          <button class="work-btn centered-btn hide2" onClick="document.getElementById('projects3').scrollIntoView({ behavior: 'smooth'})">Continue</button>
          </div>
     
     </div>
