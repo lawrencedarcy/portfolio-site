@@ -14,12 +14,10 @@ body {
 
 
 
-.hide {
+.hide, .hide2, .hide3  {
   display: none;
 }
-.hide2 {
-  display: none;
-}
+
 
 .header {
   height: 100vh;
@@ -244,16 +242,24 @@ p {
   url('https://uploads.guim.co.uk/2020/03/21/rangga-cahya-nugraha-9sfSabZRn7s-unsplash_33.jpg');
 }
 
-.project-image, .project-image-2 {
+.project-image, .project-image-2  {
   margin-top: 14vh;
   width: 45%;
-  height: 70%;
+  height: 53%;
   margin-right: 3rem;
   margin-bottom: 2rem;
-  border: 1px solid white;
   position: relative;
   float: right;
 
+}
+
+.project-video {
+  margin-top: calc(8vh + 70px);
+  width: 50%;
+  height: 40%;
+  position: relative;
+  float: right;
+  
 }
 
 .project-text, .project-text-2 {
@@ -283,7 +289,7 @@ p {
 
 
 @media (max-width:640px){
-  .project-image, .project-image-2{
+  .project-image, .project-image-2, .project-video {
       display:none;
   }
 
@@ -334,7 +340,7 @@ p {
   font-size: 1.4rem;
   background-color: transparent;
   color: white;
-  border: 3px solid white;
+  border: 2px solid white;
   min-height: 45px;
   margin: 9px;
   
@@ -385,7 +391,9 @@ outline: none;
   flex-wrap: wrap;
 }
 
-
+.notflix-image {
+  width: 100%;
+}
 
 
 /* .footer-image {
@@ -414,7 +422,7 @@ outline: none;
   cursor: pointer;
   font-family: 'Orbitron', cursive;
   height: 38px;
-  width: 240px;
+  width: 180px;
   letter-spacing: 2px;
   line-height: 17px;
   outline: none;
@@ -429,7 +437,7 @@ outline: none;
 .cyber-button-border {
   display: inline-block;
   position: relative;
-  width: 246px;
+  width: 186px;
   height: 44px;
   background: white;
   clip-path: polygon(0% 0%,  100% 0%, 100% 70%, 90% 100%, 0% 100%); 

@@ -50,6 +50,22 @@ function myFunction() {
     offset: 340
   });
 
+  var waypoint3 = new Waypoint({
+    element: document.getElementById('projects3'),
+    handler: function() {
+    
+      if ($(window).width() > 600) {
+      $('.hide3').fadeIn(1500).removeClass('hide3');
+      $('.hide-img3').fadeIn(1500).removeClass('.hide-img3');
+      }
+      else {
+        $('.hide3').fadeIn(1500).removeClass('hide3');
+      }
+    },
+    offset: 340
+  });
+
+
 
 
 });
