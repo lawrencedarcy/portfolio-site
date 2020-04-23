@@ -144,7 +144,10 @@ p {
 }
 
 
-
+.topic{
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
 
 .work-btn {
   text-transform: uppercase;
