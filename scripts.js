@@ -23,11 +23,11 @@ function myFunction() {
     handler: function() {
    
       if ($(window).width() > 600) {
-      $('.hide').fadeIn(1000).removeClass('hide');
-      $('.hide-img').fadeIn(1000).removeClass('.hide-img');
+      $('.hide').fadeIn(900).removeClass('hide');
+      $('.hide-img').fadeIn(900).removeClass('.hide-img');
       }
       else {
-        $('.hide').fadeIn(1000).removeClass('hide');
+        $('.hide').fadeIn(900).removeClass('hide');
       }
     },
     offset: 340
@@ -38,11 +38,11 @@ function myFunction() {
     handler: function() {
     
       if ($(window).width() > 600) {
-      $('.hide2').fadeIn(1000).removeClass('hide2');
-      $('.hide-img2').fadeIn(1000).removeClass('.hide-img2');
+      $('.hide2').fadeIn(900).removeClass('hide2');
+      $('.hide-img2').fadeIn(900).removeClass('.hide-img2');
       }
       else {
-        $('.hide2').fadeIn(1000).removeClass('hide2');
+        $('.hide2').fadeIn(900).removeClass('hide2');
       }
     },
     offset: 340
@@ -53,11 +53,11 @@ function myFunction() {
     handler: function() {
     
       if ($(window).width() > 600) {
-      $('.hide3').fadeIn(1000).removeClass('hide3');
-      $('.hide-img3').fadeIn(1000).removeClass('.hide-img3');
+      $('.hide3').fadeIn(900).removeClass('hide3');
+      $('.hide-img3').fadeIn(900).removeClass('.hide-img3');
       }
       else {
-        $('.hide3').fadeIn(1000).removeClass('hide3');
+        $('.hide3').fadeIn(900).removeClass('hide3');
       }
     },
     offset: 340
