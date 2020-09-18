@@ -163,7 +163,6 @@ p {
   outline: none;
   padding: 1rem;
   border-bottom: 3px solid rgba(255, 0, 106, 0);
-  
 
 }
 
@@ -253,6 +252,7 @@ p {
   margin-bottom: 2rem;
   position: relative;
   float: right;
+  opacity: 0.9;
 
 }
 
